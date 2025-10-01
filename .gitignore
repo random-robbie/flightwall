@@ -1,0 +1,19 @@
+# WiFi credentials
+settings.toml
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# CircuitPython
+.fseventsd/
+.metadata_never_index
+.Trashes
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
