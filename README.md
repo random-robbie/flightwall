@@ -21,7 +21,6 @@ A CircuitPython-powered flight tracking display for Adafruit Matrix Portal M4 th
 ### Core Components
 - [Adafruit Matrix Portal M4](https://thepihut.com/products/adafruit-matrix-portal-m4) - Main controller board
 - [32x32 RGB LED Matrix Panel - 4mm Pitch](https://thepihut.com/products/32x32-rgb-led-matrix-panel-4mm-pitch) - Display panel
-- [5V 4A Power Supply](https://thepihut.com/products/mean-well-5v-4a-switching-power-supply) - Powers the LED matrix
 - [USB-C Cable](https://thepihut.com/products/usb-c-cable-usb-2-0-type-a-to-type-c-1-meter) - For programming and power
 
 ### Optional Accessories
@@ -51,11 +50,12 @@ Expected JSON structure:
 }
 ```
 
+i currently supply planefinder and use the client web ui to the flight data with a mixture of two other apis to get operator and destinations.
+
 ## Installation
 
 ### 1. Prepare Hardware
 - Connect the LED matrix to Matrix Portal M4 following [Adafruit's guide](https://learn.adafruit.com/adafruit-matrixportal-m4)
-- Connect 5V power supply to the matrix panel
 - Connect USB-C cable to Matrix Portal M4
 
 ### 2. Install CircuitPython
